@@ -1,14 +1,13 @@
-; Topic: language
-; Subtopic: basic sequence manipulating
+; Topic: sequences
 
 (ns
   ^{:author raptor}
-  lang.task22
+  seqs.task22
   (:use clojure.test))
 
 (defn re-count
   "Reimplementation of 'count'"
-  [z] (reduce (fn [x y] (+ x 1)) 0 z))
+  [c] (reduce (fn [x y] (inc x)) 0 c))
 
 (deftest test1 (is (= (re-count '(1 2 3 3 1)) 5)))
 
@@ -20,4 +19,4 @@
 
 (deftest test5 (is (= (re-count '(:a :b :c)) 3)))
 
-(run-tests 'lang.task22)
+(run-tests 'seqs.task22)

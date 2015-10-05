@@ -1,9 +1,8 @@
-; Topic: language
-; Subtopic: elementary
+; Topic: elementary
 
 (ns
   ^{:author raptor_MVK}
-  lang.task16
+  elem.task16
   (:use clojure.test))
 
 (defn greeter
@@ -16,4 +15,4 @@
 
 (deftest test3 (is (= (greeter "Rhea") "Hello, Rhea!")))
 
-(run-tests 'lang.task16)
+(run-tests 'elem.task16)

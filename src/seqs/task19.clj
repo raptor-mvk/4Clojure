@@ -1,9 +1,8 @@
-; Topic: language
-; Subtopic: basic sequence manipulating
+; Topic: sequences
 
 (ns
   ^{:author raptor}
-  lang.task19
+  seqs.task19
   (:use clojure.test))
 
 (defn re-last
@@ -16,4 +15,4 @@
 
 (deftest test3 (is (= (re-last ["b" "c" "d"]) "d")))
 
-(run-tests 'lang.task19)
+(run-tests 'seqs.task19)

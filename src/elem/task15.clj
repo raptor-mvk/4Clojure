@@ -1,9 +1,8 @@
-; Topic: language
-; Subtopic: elementary
+; Topic: elementary
 
 (ns
   ^{:author raptor_MVK}
-  lang.task15
+  elem.task15
   (:use clojure.test))
 
 (defn x2
@@ -18,4 +17,4 @@
 
 (deftest test4 (is (= (x2 7) 14)))
 
-(run-tests 'lang.task15)
+(run-tests 'elem.task15)

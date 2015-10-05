@@ -1,9 +1,8 @@
-; Topic: language
-; Subtopic: basic sequence manipulating
+; Topic: sequences
 
 (ns
   ^{:author raptor}
-  lang.task20
+  seqs.task20
   (:use clojure.test))
 
 (defn prelast
@@ -16,4 +15,4 @@
 
 (deftest test3 (is (= (prelast [[1 2] [3 4]]) [1 2])))
 
-(run-tests 'lang.task20)
+(run-tests 'seqs.task20)

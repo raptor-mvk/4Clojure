@@ -1,9 +1,8 @@
-; Topic: language
-; Subtopic: basic sequence manipulating
+; Topic: sequences
 
 (ns
   ^{:author raptor}
-  lang.task21
+  seqs.task21
   (:use clojure.test))
 
 (defn re-nth
@@ -18,4 +17,4 @@
 
 (deftest test4 (is (= (re-nth '([1 2] [3 4] [5 6]) 2) [5 6])))
 
-(run-tests 'lang.task21)
+(run-tests 'seqs.task21)
