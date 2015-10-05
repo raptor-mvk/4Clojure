@@ -19,4 +19,3 @@
 (deftest test4 (is (= (x2 7) 14)))
 
 (run-tests 'lang.task15)
-
