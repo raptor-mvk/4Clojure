@@ -7,7 +7,7 @@
 
 (defn prelast
   "Returns the second to last element from a sequence"
-  [x] (-> x reverse second))
+  [coll] (-> coll reverse second))
 
 (deftest test1 (is (= (prelast (list 1 2 3 4 5)) 4)))
 

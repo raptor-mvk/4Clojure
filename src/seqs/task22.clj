@@ -7,7 +7,7 @@
 
 (defn re-count
   "Reimplementation of 'count'"
-  [c] (reduce (fn [x y] (inc x)) 0 c))
+  [coll] (reduce (fn [x y] (inc x)) 0 coll))
 
 (deftest test1 (is (= (re-count '(1 2 3 3 1)) 5)))
 

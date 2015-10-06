@@ -7,7 +7,7 @@
 
 (defn re-nth
   "Reimplementation of 'nth'"
-  [c n] (-> c (nthnext n) first))
+  [coll n] (-> coll (nthnext n) first))
 
 (deftest test1 (is (= (re-nth '(4 5 6 7) 2) 6)))
 
