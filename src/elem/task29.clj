@@ -7,8 +7,8 @@
 
 (defn upcase-filter
   "Given a string, returns a new string containing only the capital letters"
-  [x]
-  (apply str (filter #(Character/isUpperCase %) x)))
+  [s]
+  (apply str (filter #(Character/isUpperCase %) s)))
 
 (deftest test1 (is (= (upcase-filter "HeLlO, WoRlD!") "HLOWRD")))
 

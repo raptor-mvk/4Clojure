@@ -7,8 +7,8 @@
 
 (defn re-range
   "Reimplementation of 'range' with two parameters"
-  [x y]
-  (take (- y x) (iterate inc x)))
+  [m n]
+  (take (- n m) (iterate inc m)))
 
 (deftest test1 (is (= (re-range 1 4) '(1 2 3))))
 
