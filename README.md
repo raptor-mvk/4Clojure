@@ -25,4 +25,6 @@ Solutions to problems from http://4clojure.com/
     [34](http://www.4clojure.com/problem/34),
     [39](http://www.4clojure.com/problem/39),
     [40](http://www.4clojure.com/problem/40),
-    [41](http://www.4clojure.com/problem/41)
+    [41](http://www.4clojure.com/problem/41),
+    [43](http://www.4clojure.com/problem/43),
+    [44](http://www.4clojure.com/problem/44)
