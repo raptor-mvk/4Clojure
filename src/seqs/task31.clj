@@ -8,7 +8,8 @@
 (defn pack-dup
   "Given a sequence, returns this sequence with packed into sub-lists consecutive
   duplicates"
-  [x] (partition-by identity x))
+  [x]
+  (partition-by identity x))
 
 (deftest test1 (is (= (pack-dup [1 1 2 1 1 1 3 3]) '((1 1) (2) (1 1 1) (3 3)))))
 

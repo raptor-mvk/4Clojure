@@ -7,7 +7,8 @@
 
 (defn x2
   "Given x, return doubled value of x"
-  [x] (* x 2))
+  [x]
+  (* x 2))
 
 (deftest test1 (is (= (x2 2) 4)))
 

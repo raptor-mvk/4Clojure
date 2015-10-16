@@ -7,7 +7,8 @@
 
 (defn odd-filter
   "Returns only the odd numbers from a sequence"
-  [coll] (filter odd? coll))
+  [coll]
+  (filter odd? coll))
 
 (deftest test1 (is (= (odd-filter #{1 2 3 4 5}) '(1 3 5))))
 

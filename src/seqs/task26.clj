@@ -7,8 +7,9 @@
 
 (defn fib-seq
   "Returns the first N fibonacci numbers"
-  [n] (let [next-fib (fn [[prev cur]] [cur (+ prev cur)])]
-        (take n (map first (iterate next-fib [1 1])))))
+  [n]
+  (let [next-fib (fn [[prev cur]] [cur (+ prev cur)])]
+    (take n (map first (iterate next-fib [1 1])))))
 
 (deftest test1 (is (= (fib-seq 3) '(1 1 2))))
 

@@ -7,7 +7,8 @@
 
 (defn re-flatten
   "Reimplementation of 'flatten'"
-  [x] (filter (complement sequential?) (tree-seq sequential? seq x)))
+  [x]
+  (filter (complement sequential?) (tree-seq sequential? seq x)))
 
 (deftest test1 (is (= (re-flatten '((1 2) 3 [4 [5 6]])) '(1 2 3 4 5 6))))
 

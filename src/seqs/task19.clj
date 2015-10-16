@@ -7,7 +7,8 @@
 
 (defn re-last
   "Reimplementation of 'last'"
-  [coll] (-> coll reverse first))
+  [coll]
+  (-> coll reverse first))
 
 (deftest test1 (is (= (re-last [1 2 3 4 5]) 5)))
 

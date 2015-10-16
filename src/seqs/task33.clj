@@ -7,7 +7,8 @@
 
 (defn repl
   "Given a sequence and a number N, replicates each element of a sequence N times"
-  [coll n] (apply interleave (repeat n coll)))
+  [coll n]
+  (apply interleave (repeat n coll)))
 
 (deftest test1 (is (= (repl [1 2 3] 2) '(1 1 2 2 3 3))))
 

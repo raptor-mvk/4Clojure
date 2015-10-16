@@ -7,7 +7,8 @@
 
 (defn dup
   "Duplicates each element of a sequence"
-  [coll] (interleave coll coll))
+  [coll]
+  (interleave coll coll))
 
 (deftest test1 (is (= (dup [1 2 3]) '(1 1 2 2 3 3))))
 

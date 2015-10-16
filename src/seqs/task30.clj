@@ -7,7 +7,8 @@
 
 (defn dedup
   "Given a collection, returns this collection with dropped consecutive deduplicates"
-  [x] (reverse (reduce #(if (= (first %1) %2) %1 (conj %1 %2)) '() x)))
+  [x]
+  (reverse (reduce #(if (= (first %1) %2) %1 (conj %1 %2)) '() x)))
 
 (deftest test1 (is (= (apply str (dedup "Leeeeeerrroyyy")) "Leroy")))
 

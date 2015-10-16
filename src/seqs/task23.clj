@@ -7,7 +7,8 @@
 
 (defn re-reverse
   "Reimplementation of 'reverse'"
-  [coll] (reduce conj '() coll))
+  [coll]
+  (reduce conj '() coll))
 
 (deftest test1 (is (= (re-reverse [1 2 3 4 5]) [5 4 3 2 1])))
 

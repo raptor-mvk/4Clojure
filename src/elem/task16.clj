@@ -7,7 +7,8 @@
 
 (defn greeter
   "Given s, returns string 'Hello, s!'"
-  [s] (str "Hello, " s "!"))
+  [s]
+  (str "Hello, " s "!"))
 
 (deftest test1 (is (= (greeter "Dave") "Hello, Dave!")))
 

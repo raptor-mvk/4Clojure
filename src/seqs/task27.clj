@@ -7,7 +7,8 @@
 
 (defn palindrome?
   "Returns true if the given sequence is a palindrome"
-  [coll] (= (reverse coll) (seq coll)))
+  [coll]
+  (= (reverse coll) (seq coll)))
 
 (deftest test1 (is (false? (palindrome? '(1 2 3 4 5)))))
 

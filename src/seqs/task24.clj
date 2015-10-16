@@ -7,7 +7,8 @@
 
 (defn sum
   "Returns sum of all elements from a sequence"
-  [coll] (reduce + coll))
+  [coll]
+  (reduce + coll))
 
 (deftest test1 (is (= (sum [1 2 3]) 6)))
 
