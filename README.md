@@ -6,7 +6,8 @@ Solutions to problems from http://4clojure.com/
   * [15](http://www.4clojure.com/problem/15),
     [16](http://www.4clojure.com/problem/16),
     [29](http://www.4clojure.com/problem/29),
-    [38](http://www.4clojure.com/problem/38)
+    [38](http://www.4clojure.com/problem/38),
+    [42](http://www.4clojure.com/problem/42)
 * Sequences
   * [19](http://www.4clojure.com/problem/19),
     [20](http://www.4clojure.com/problem/20),
@@ -28,3 +29,5 @@ Solutions to problems from http://4clojure.com/
     [41](http://www.4clojure.com/problem/41),
     [43](http://www.4clojure.com/problem/43),
     [44](http://www.4clojure.com/problem/44)
+* High-order functions
+  * [46](http://www.4clojure.com/problem/46)

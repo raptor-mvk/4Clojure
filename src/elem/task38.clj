@@ -12,7 +12,7 @@
 
 (deftest test1 (is (= (re-max 1 8 3 4) 8)))
 
-(deftest test2 (is (= (re-max  30 20) 30)))
+(deftest test2 (is (= (re-max 30 20) 30)))
 
 (deftest test3 (is (= (re-max 45 67 11) 67)))
 
