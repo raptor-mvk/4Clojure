@@ -28,6 +28,8 @@ Solutions to problems from http://4clojure.com/
     [40](http://www.4clojure.com/problem/40),
     [41](http://www.4clojure.com/problem/41),
     [43](http://www.4clojure.com/problem/43),
-    [44](http://www.4clojure.com/problem/44)
+    [44](http://www.4clojure.com/problem/44),
+    [49](http://www.4clojure.com/problem/49),
+    [50](http://www.4clojure.com/problem/50)
 * High-order functions
   * [46](http://www.4clojure.com/problem/46)
