@@ -6,7 +6,8 @@ Solutions to problems from http://4clojure.com/
   * [15](http://www.4clojure.com/problem/15),
     [16](http://www.4clojure.com/problem/16),
     [29](http://www.4clojure.com/problem/29),
-    [42](http://www.4clojure.com/problem/42)
+    [42](http://www.4clojure.com/problem/42),
+    [66](http://www.4clojure.com/problem/66)
 * Core functions
   * [19](http://www.4clojure.com/problem/19),
     [21](http://www.4clojure.com/problem/21),
@@ -41,6 +42,7 @@ Solutions to problems from http://4clojure.com/
     [43](http://www.4clojure.com/problem/43),
     [44](http://www.4clojure.com/problem/44),
     [50](http://www.4clojure.com/problem/50),
-    [53](http://www.4clojure.com/problem/53)
+    [53](http://www.4clojure.com/problem/53),
+    [65](http://www.4clojure.com/problem/65)
 * High-order functions
   * [46](http://www.4clojure.com/problem/46)
