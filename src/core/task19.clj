@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task19
+  ^{:author raptor_MVK}
+  core.task19
   (:use clojure.test))
 
 (defn re-last
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (re-last ["b" "c" "d"]) "d")))
 
-(run-tests 'seqs.task19)
+(run-tests 'core.task19)

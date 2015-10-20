@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task49
+  ^{:author raptor_MVK}
+  core.task49
   (:use clojure.test))
 
 (defn re-split-at
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (re-split-at 2 [[1 2] [3 4] [5 6]]) [[[1 2] [3 4]] [[5 6]]])))
 
-(run-tests 'seqs.task49)
+(run-tests 'core.task49)

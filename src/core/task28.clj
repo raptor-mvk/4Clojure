@@ -1,8 +1,8 @@
 ; Topic: sequences
 
 (ns
-  ^{:author raptor}
-  seqs.task28
+  ^{:author raptor_MVK}
+  core.task28
   (:use clojure.test))
 
 (defn re-flatten
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (re-flatten '((((:a))))) '(:a))))
 
-(run-tests 'seqs.task28)
+(run-tests 'core.task28)

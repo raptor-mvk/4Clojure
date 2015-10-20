@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task40
+  ^{:author raptor_MVK}
+  core.task40
   (:use clojure.test))
 
 (defn re-interpose
@@ -17,4 +17,4 @@
 
 (deftest test3 (is (= (re-interpose :z [:a :b :c :d]) [:a :z :b :z :c :z :d])))
 
-(run-tests 'seqs.task40)
+(run-tests 'core.task40)

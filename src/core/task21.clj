@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task21
+  ^{:author raptor_MVK}
+  core.task21
   (:use clojure.test))
 
 (defn re-nth
@@ -18,4 +18,4 @@
 
 (deftest test4 (is (= (re-nth '([1 2] [3 4] [5 6]) 2) [5 6])))
 
-(run-tests 'seqs.task21)
+(run-tests 'core.task21)

@@ -1,8 +1,8 @@
-; Topic: elementary
+; Topic: core functions
 
 (ns
   ^{:author raptor_MVK}
-  elem.task38
+  core.task38
   (:use clojure.test))
 
 (defn re-max
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (re-max 45 67 11) 67)))
 
-(run-tests 'elem.task38)
+(run-tests 'core.task38)

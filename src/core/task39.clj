@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task39
+  ^{:author raptor_MVK}
+  core.task39
   (:use clojure.test))
 
 (defn re-interleave
@@ -18,4 +18,4 @@
 
 (deftest test4 (is (= (re-interleave [30 20] [25 15]) [30 25 20 15])))
 
-(run-tests 'seqs.task39)
+(run-tests 'core.task39)

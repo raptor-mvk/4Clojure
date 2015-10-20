@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task23
+  ^{:author raptor_MVK}
+  core.task23
   (:use clojure.test))
 
 (defn re-reverse
@@ -18,4 +18,4 @@
 (deftest test3 (is (= (re-reverse [[1 2][3 4][5 6]])
                      [[5 6][3 4][1 2]])))
 
-(run-tests 'seqs.task23)
+(run-tests 'core.task23)

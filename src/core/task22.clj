@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task22
+  ^{:author raptor_MVK}
+  core.task22
   (:use clojure.test))
 
 (defn re-count
@@ -20,4 +20,4 @@
 
 (deftest test5 (is (= (re-count '(:a :b :c)) 3)))
 
-(run-tests 'seqs.task22)
+(run-tests 'core.task22)

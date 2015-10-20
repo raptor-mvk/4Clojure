@@ -1,8 +1,8 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
-  ^{:author raptor}
-  seqs.task34
+  ^{:author raptor_MVK}
+  core.task34
   (:use clojure.test))
 
 (defn re-range
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (re-range 5 8) '(5 6 7))))
 
-(run-tests 'seqs.task34)
+(run-tests 'core.task34)
