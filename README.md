@@ -26,7 +26,8 @@ Solutions to problems from http://4clojure.com/
     [60](http://www.4clojure.com/problem/60),
     [61](http://www.4clojure.com/problem/61),
     [62](http://www.4clojure.com/problem/62),
-    [63](http://www.4clojure.com/problem/63)
+    [63](http://www.4clojure.com/problem/63),
+    [69](http://www.4clojure.com/problem/69)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
@@ -43,6 +44,10 @@ Solutions to problems from http://4clojure.com/
     [44](http://www.4clojure.com/problem/44),
     [50](http://www.4clojure.com/problem/50),
     [53](http://www.4clojure.com/problem/53),
-    [65](http://www.4clojure.com/problem/65)
+    [65](http://www.4clojure.com/problem/65),
+    [67](http://www.4clojure.com/problem/67),
+    [70](http://www.4clojure.com/problem/70)
 * High-order functions
   * [46](http://www.4clojure.com/problem/46)
+* Games
+  * [73](http://www.4clojure.com/problem/73)
