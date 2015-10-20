@@ -18,8 +18,10 @@ Solutions to problems from http://4clojure.com/
     [40](http://www.4clojure.com/problem/40),
     [49](http://www.4clojure.com/problem/49),
     [54](http://www.4clojure.com/problem/54),
+    [55](http://www.4clojure.com/problem/55),
     [56](http://www.4clojure.com/problem/56),
-    [58](http://www.4clojure.com/problem/58)
+    [58](http://www.4clojure.com/problem/58),
+    [59](http://www.4clojure.com/problem/59)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
