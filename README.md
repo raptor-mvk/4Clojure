@@ -17,7 +17,9 @@ Solutions to problems from http://4clojure.com/
     [39](http://www.4clojure.com/problem/39),
     [40](http://www.4clojure.com/problem/40),
     [49](http://www.4clojure.com/problem/49),
-    [54](http://www.4clojure.com/problem/54)
+    [54](http://www.4clojure.com/problem/54),
+    [56](http://www.4clojure.com/problem/56),
+    [58](http://www.4clojure.com/problem/58)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
