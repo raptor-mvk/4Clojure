@@ -22,6 +22,8 @@ Solutions to problems from http://4clojure.com/
     [56](http://www.4clojure.com/problem/56),
     [58](http://www.4clojure.com/problem/58),
     [59](http://www.4clojure.com/problem/59)
+    [60](http://www.4clojure.com/problem/60)
+    [61](http://www.4clojure.com/problem/61)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
