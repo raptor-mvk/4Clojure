@@ -7,8 +7,8 @@
 
 (defn re-juxt
   "Reimplementation of 'juxt'"
-  [& f]
-  (fn [& x] (map #(apply % x) f)))
+  [& fs]
+  (fn [& xs] (map #(apply % xs) fs)))
 
 (deftest test1 (is (= [21 6 1] ((re-juxt + max min) 2 3 5 1 6 4))))
 

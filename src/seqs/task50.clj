@@ -7,7 +7,8 @@
 
 (defn split-by-type
   "Given a sequence, returns set of sub-sequences, grouped by item type"
-  [coll] (reduce #(into %1 (vector (last %2))) #{} (group-by class coll)))
+  [coll]
+  (reduce #(into %1 (vector (last %2))) #{} (group-by class coll)))
 
 (deftest test1 (is (= (set (split-by-type [1 :a 2 :b 3 :c])) #{[1 2 3] [:a :b :c]})))
 

@@ -7,7 +7,8 @@
 
 (defn re-zipmap
   "Reimplementation of 'zipmap'"
-  [keys values] (reduce into {} (map #(hash-map %1 %2) keys values)))
+  [keys values]
+  (reduce into {} (map #(hash-map %1 %2) keys values)))
 
 (deftest test1 (is (= (re-zipmap [:a :b :c] [1 2 3]) {:a 1, :b 2, :c 3})))
 

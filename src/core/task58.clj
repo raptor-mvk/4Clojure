@@ -7,8 +7,8 @@
 
 (defn re-comp
   "Reimplementation of 'comp'"
-  [& f]
-  (fn [& x] (reduce #(%2 %1) (apply (last f) x) (rest (reverse f)))))
+  [& fs]
+  (fn [& xs] (reduce #(%2 %1) (apply (last fs) xs) (rest (reverse fs)))))
 
 (deftest test1 (is (= [3 2 1] ((re-comp rest reverse) [1 2 3 4]))))
 
