@@ -23,13 +23,16 @@ Solutions to problems from http://4clojure.com/
     [63](http://www.4clojure.com/problem/63),
     [69](http://www.4clojure.com/problem/69),
     [78](http://www.4clojure.com/problem/78)
+* Dynamic programming
+  * [79](http://www.4clojure.com/problem/79)
 * Elementary
   * [15](http://www.4clojure.com/problem/15),
     [16](http://www.4clojure.com/problem/16),
     [29](http://www.4clojure.com/problem/29),
     [42](http://www.4clojure.com/problem/42),
     [66](http://www.4clojure.com/problem/66),
-    [75](http://www.4clojure.com/problem/75)
+    [75](http://www.4clojure.com/problem/75),
+    [80](http://www.4clojure.com/problem/80)
 * Games
   * [73](http://www.4clojure.com/problem/73)
 * High-order functions
