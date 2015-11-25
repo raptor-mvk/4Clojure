@@ -2,12 +2,6 @@ Solutions to problems from http://4clojure.com/
 
 # Topics
 
-* Elementary
-  * [15](http://www.4clojure.com/problem/15),
-    [16](http://www.4clojure.com/problem/16),
-    [29](http://www.4clojure.com/problem/29),
-    [42](http://www.4clojure.com/problem/42),
-    [66](http://www.4clojure.com/problem/66)
 * Core functions
   * [19](http://www.4clojure.com/problem/19),
     [21](http://www.4clojure.com/problem/21),
@@ -28,6 +22,17 @@ Solutions to problems from http://4clojure.com/
     [62](http://www.4clojure.com/problem/62),
     [63](http://www.4clojure.com/problem/63),
     [69](http://www.4clojure.com/problem/69)
+* Elementary
+  * [15](http://www.4clojure.com/problem/15),
+    [16](http://www.4clojure.com/problem/16),
+    [29](http://www.4clojure.com/problem/29),
+    [42](http://www.4clojure.com/problem/42),
+    [66](http://www.4clojure.com/problem/66),
+    [75](http://www.4clojure.com/problem/75)
+* Games
+  * [73](http://www.4clojure.com/problem/73)
+* High-order functions
+  * [46](http://www.4clojure.com/problem/46)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
@@ -46,8 +51,5 @@ Solutions to problems from http://4clojure.com/
     [53](http://www.4clojure.com/problem/53),
     [65](http://www.4clojure.com/problem/65),
     [67](http://www.4clojure.com/problem/67),
-    [70](http://www.4clojure.com/problem/70)
-* High-order functions
-  * [46](http://www.4clojure.com/problem/46)
-* Games
-  * [73](http://www.4clojure.com/problem/73)
+    [70](http://www.4clojure.com/problem/70),
+    [74](http://www.4clojure.com/problem/74)
