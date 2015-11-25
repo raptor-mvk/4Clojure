@@ -21,7 +21,8 @@ Solutions to problems from http://4clojure.com/
     [61](http://www.4clojure.com/problem/61),
     [62](http://www.4clojure.com/problem/62),
     [63](http://www.4clojure.com/problem/63),
-    [69](http://www.4clojure.com/problem/69)
+    [69](http://www.4clojure.com/problem/69),
+    [78](http://www.4clojure.com/problem/78)
 * Elementary
   * [15](http://www.4clojure.com/problem/15),
     [16](http://www.4clojure.com/problem/16),
@@ -52,4 +53,5 @@ Solutions to problems from http://4clojure.com/
     [65](http://www.4clojure.com/problem/65),
     [67](http://www.4clojure.com/problem/67),
     [70](http://www.4clojure.com/problem/70),
-    [74](http://www.4clojure.com/problem/74)
+    [74](http://www.4clojure.com/problem/74),
+    [77](http://www.4clojure.com/problem/77)
