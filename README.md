@@ -63,4 +63,6 @@ Solutions to problems from http://4clojure.com/
     [77](http://www.4clojure.com/problem/77),
     [83](http://www.4clojure.com/problem/83)
 * Set theory
-  * [84](http://www.4clojure.com/problem/84)
+  * [84](http://www.4clojure.com/problem/84),
+    [85](http://www.4clojure.com/problem/85),
+    [88](http://www.4clojure.com/problem/88)
