@@ -22,7 +22,9 @@ Solutions to problems from http://4clojure.com/
     [62](http://www.4clojure.com/problem/62),
     [63](http://www.4clojure.com/problem/63),
     [69](http://www.4clojure.com/problem/69),
-    [78](http://www.4clojure.com/problem/78)
+    [78](http://www.4clojure.com/problem/78),
+    [81](http://www.4clojure.com/problem/81),
+    [118](http://www.4clojure.com/problem/118)
 * Dynamic programming
   * [79](http://www.4clojure.com/problem/79)
 * Elementary
@@ -33,7 +35,6 @@ Solutions to problems from http://4clojure.com/
     [66](http://www.4clojure.com/problem/66),
     [75](http://www.4clojure.com/problem/75),
     [80](http://www.4clojure.com/problem/80),
-    [81](http://www.4clojure.com/problem/81),
     [92](http://www.4clojure.com/problem/92),
     [104](http://www.4clojure.com/problem/104)
 * Games
@@ -41,7 +42,8 @@ Solutions to problems from http://4clojure.com/
 * Graph
   * [82](http://www.4clojure.com/problem/82)
 * High-order functions
-  * [46](http://www.4clojure.com/problem/46)
+  * [46](http://www.4clojure.com/problem/46),
+    [107](http://www.4clojure.com/problem/107)
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [23](http://www.4clojure.com/problem/23),
