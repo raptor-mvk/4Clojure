@@ -33,7 +33,9 @@ Solutions to problems from http://4clojure.com/
     [66](http://www.4clojure.com/problem/66),
     [75](http://www.4clojure.com/problem/75),
     [80](http://www.4clojure.com/problem/80),
-    [81](http://www.4clojure.com/problem/81)
+    [81](http://www.4clojure.com/problem/81),
+    [92](http://www.4clojure.com/problem/92),
+    [104](http://www.4clojure.com/problem/104)
 * Games
   * [73](http://www.4clojure.com/problem/73)
 * Graph
