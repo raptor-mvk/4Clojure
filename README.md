@@ -36,6 +36,8 @@ Solutions to problems from http://4clojure.com/
     [81](http://www.4clojure.com/problem/81)
 * Games
   * [73](http://www.4clojure.com/problem/73)
+* Graph
+  * [82](http://www.4clojure.com/problem/82)
 * High-order functions
   * [46](http://www.4clojure.com/problem/46)
 * Sequences
