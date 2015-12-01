@@ -37,7 +37,8 @@ Solutions to problems from http://4clojure.com/
     [80](http://www.4clojure.com/problem/80),
     [86](http://www.4clojure.com/problem/86),
     [92](http://www.4clojure.com/problem/92),
-    [104](http://www.4clojure.com/problem/104)
+    [104](http://www.4clojure.com/problem/104),
+    [122](http://www.4clojure.com/problem/122)
 * Games
   * [73](http://www.4clojure.com/problem/73)
 * Graph
@@ -71,4 +72,5 @@ Solutions to problems from http://4clojure.com/
 * Set theory
   * [84](http://www.4clojure.com/problem/84),
     [85](http://www.4clojure.com/problem/85),
-    [88](http://www.4clojure.com/problem/88)
+    [88](http://www.4clojure.com/problem/88),
+    [90](http://www.4clojure.com/problem/90)
