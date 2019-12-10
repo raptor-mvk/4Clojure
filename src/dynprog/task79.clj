@@ -1,7 +1,7 @@
 ; Topic: dynamic programming
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   dynprog.task79
   (:use clojure.test))
 

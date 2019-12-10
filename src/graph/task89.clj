@@ -3,7 +3,7 @@
 ;       it contains 0 (cycle) or 2 (trail) vertices of odd degree
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   graph.task89
   (:use clojure.test))
 

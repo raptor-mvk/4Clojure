@@ -1,7 +1,7 @@
 ; Topic: high-order functions
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   elem.task46
   (:use clojure.test))
 

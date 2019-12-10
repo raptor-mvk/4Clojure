@@ -1,7 +1,7 @@
 ; Topic: games
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   games.task73
   (:use clojure.test))
 

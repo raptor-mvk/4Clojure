@@ -3,7 +3,7 @@
 ;       can be transformed from i-th word
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   graph.task82
   (:use clojure.test))
 

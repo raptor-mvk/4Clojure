@@ -1,7 +1,7 @@
 ; Topic: sequences
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   seqs.task31
   (:use clojure.test))
 

@@ -1,7 +1,7 @@
 ; Topic: set theory
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   set.task90
   (:use clojure.set)
   (:use clojure.test))

@@ -1,7 +1,7 @@
 ; Topic: core functions
 
 (ns
-  ^{:author raptor_MVK}
+  ^{:author "raptor_MVK"}
   core.task55
   (:use clojure.test))
 
