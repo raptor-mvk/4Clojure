@@ -10,8 +10,8 @@
   of perfect squares"
   [s]
   (clojure.string/join ","
-    (filter #(= 0.0 (rem (Math/sqrt %) 1))
-      (map read-string (clojure.string/split s #",")))))
+                       (filter #(= 0.0 (rem (Math/sqrt %) 1))
+                               (map read-string (clojure.string/split s #",")))))
 
 (deftest test1 (is (= (filter-squares "4,5,6,7,8,9") "4,9")))
 

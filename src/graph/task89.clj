@@ -21,10 +21,10 @@
                     false)
         connected? (loop [visited #{(first vertices)}]
                      (let [new-visited (reduce into visited (map get-neighbors visited))]
-                           (condp = new-visited
-                             vertices true
-                             visited false
-                             (recur new-visited))))]
+                       (condp = new-visited
+                         vertices true
+                         visited false
+                         (recur new-visited))))]
     (and connected? eulerian?)))
 
 (deftest test1 (is (= true (eulerian-path? [[:a :b]]))))

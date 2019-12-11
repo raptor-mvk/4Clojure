@@ -17,9 +17,9 @@
                                  b-length (count b)
                                  test (fn [a b c]
                                         (not (nil? (some #{b}
-                                                     (map #(apply str (concat (take % a)
-                                                                        (drop (inc %) a)))
-                                                       (range c))))))]
+                                                         (map #(apply str (concat (take % a)
+                                                                                  (drop (inc %) a)))
+                                                              (range c))))))]
                              (condp = (- a-length b-length)
                                0 (= (reduce + (map #(if (= %1 %2) 0 1) a b)) 1)
                                1 (test a b a-length)
@@ -29,7 +29,7 @@
         edges (filter #(last %) (for [x coll-indexed
                                       y coll-indexed]
                                   (vector (first x) (first y)
-                                    (chained? (last x) (last y)))))
+                                          (chained? (last x) (last y)))))
         deep-search (fn deep-search [cur used]
                       (let [next-words (filter #(= cur (first %)) edges)]
                         (loop [coll next-words]
@@ -45,7 +45,7 @@
     (not (nil? (some true? (map #(deep-search % #{%}) (range (count coll))))))))
 
 (deftest test1 (is (= true (word-chain?
-                               #{"hat" "coat" "dog" "cat" "oat" "cot" "hot" "hog"}))))
+                             #{"hat" "coat" "dog" "cat" "oat" "cot" "hot" "hog"}))))
 
 (deftest test2 (is (= false (word-chain? #{"cot" "hot" "bat" "fat"}))))
 

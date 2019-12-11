@@ -17,6 +17,6 @@
 (deftest test3 (is (= true ((re-comp zero? #(mod % 8) +) 3 5 7 9))))
 
 (deftest test4 (is (= "HELLO"
-                     ((re-comp #(.toUpperCase %) #(apply str %) take) 5 "hello world"))))
+                      ((re-comp #(.toUpperCase %) #(apply str %) take) 5 "hello world"))))
 
 (run-tests 'core.task58)

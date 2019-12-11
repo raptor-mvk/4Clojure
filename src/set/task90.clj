@@ -14,14 +14,14 @@
 
 
 (deftest test1 (is (= (carthesian-prod #{"ace" "king" "queen"} #{"♠" "♥" "♦" "♣"})
-                       #{["ace" "♠"] ["ace" "♥"] ["ace" "♦"] ["ace" "♣"]
-                         ["king" "♠"] ["king" "♥"] ["king" "♦"] ["king" "♣"]
-                         ["queen" "♠"] ["queen" "♥"] ["queen" "♦"] ["queen" "♣"]})))
+                      #{["ace" "♠"] ["ace" "♥"] ["ace" "♦"] ["ace" "♣"]
+                        ["king" "♠"] ["king" "♥"] ["king" "♦"] ["king" "♣"]
+                        ["queen" "♠"] ["queen" "♥"] ["queen" "♦"] ["queen" "♣"]})))
 
 (deftest test2 (is (= (carthesian-prod #{1 2 3} #{4 5})
-                       #{[1 4] [2 4] [3 4] [1 5] [2 5] [3 5]})))
+                      #{[1 4] [2 4] [3 4] [1 5] [2 5] [3 5]})))
 
 (deftest test3 (is (= 300 (count (carthesian-prod (into #{} (range 10))
-                                   (into #{} (range 30)))))))
+                                                  (into #{} (range 30)))))))
 
 (run-tests 'set.task90)

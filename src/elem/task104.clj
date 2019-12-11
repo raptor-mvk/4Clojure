@@ -15,7 +15,7 @@
                             8 (apply str (concat [v] (repeat (- n 5) i)))
                             9 (str i x)))]
     (apply str (map #(rom (- (int %1) (int \0)) %2 %3 %4) (format "%04d" n)
-                 "MCXI" "MDLV" "MMCX"))))
+                    "MCXI" "MDLV" "MMCX"))))
 
 (deftest test1 (is (= "I" (num2rom 1))))
 

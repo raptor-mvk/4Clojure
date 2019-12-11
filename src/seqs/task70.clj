@@ -13,9 +13,9 @@
 (deftest test1 (is (= (sort-words "Have a nice day.") ["a" "day" "Have" "nice"])))
 
 (deftest test2 (is (= (sort-words "Clojure is a fun language!")
-                     ["a" "Clojure" "fun" "is" "language"])))
+                      ["a" "Clojure" "fun" "is" "language"])))
 
 (deftest test3 (is (= (sort-words "Fools fall for foolish follies.")
-                     ["fall" "follies" "foolish" "Fools" "for"])))
+                      ["fall" "follies" "foolish" "Fools" "for"])))
 
 (run-tests 'seqs.task70)

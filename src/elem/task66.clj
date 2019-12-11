@@ -9,8 +9,8 @@
   "Given two integers, returns the greatest common divisor"
   [m n]
   (cond
-    (= m n) m ;
-    (< m n) (gcd (- n m) m) ;
+    (= m n) m                                               ;
+    (< m n) (gcd (- n m) m)                                 ;
     :else (gcd (- m n) n)))
 
 (deftest test1 (is (= (gcd 2 4) 2)))

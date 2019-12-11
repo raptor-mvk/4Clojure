@@ -15,6 +15,6 @@
 (deftest test2 (is (= (repeat 10 nil) (re-map (fn [_] nil) (range 10)))))
 
 (deftest test3 (is (= [1000000 1000001] (->> (re-map inc (range)) (drop (dec 1000000))
-                                          (take 2)))))
+                                             (take 2)))))
 
 (run-tests 'core.task118)

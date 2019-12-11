@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task46
+  high-order.task46
   (:use clojure.test))
 
 (defn arg-flip
@@ -18,4 +18,4 @@
 
 (deftest test4 (is (= [1 2 3] ((arg-flip take) [1 2 3 4 5] 3))))
 
-(run-tests 'elem.task46)
+(run-tests 'high-order.task46)

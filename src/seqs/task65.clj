@@ -11,8 +11,8 @@
   (let [new-coll (into coll [{:z :x} {:z :x} {:z :y}])
         diff (- (count new-coll) (count coll))]
     (condp = diff
-      1 :map ;
-      2 :set ;
+      1 :map                                                ;
+      2 :set                                                ;
       (if (= {:z :y} (first new-coll)) :list :vector))))
 
 (deftest test1 (is (= :map (get-type {:a 1, :b 2}))))
