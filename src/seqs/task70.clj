@@ -6,7 +6,7 @@
   (:use clojure.test))
 
 (defn sort-words
-  "Given a string, returs a sorted (case ignored) list of words"
+  "Given a string, returns a sorted (case ignored) list of words"
   [s]
   (sort #(.compareToIgnoreCase %1 %2) (clojure.string/split s #"[ ,\\.!?-]")))
 

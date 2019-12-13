@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task75
+  math.task75
   (:use clojure.test))
 
 (defn totient
@@ -26,4 +26,4 @@
 
 (deftest test4 (is (= (totient 99) 60)))
 
-(run-tests 'elem.task75)
+(run-tests 'math.task75)

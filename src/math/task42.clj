@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task42
+  math.task42
   (:use clojure.test))
 
 (defn fact
@@ -18,4 +18,4 @@
 
 (deftest test4 (is (= (fact 8) 40320)))
 
-(run-tests 'elem.task42)
+(run-tests 'math.task42)

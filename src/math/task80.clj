@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task80
+  math.task80
   (:use clojure.test))
 
 (defn perfect?
@@ -19,4 +19,4 @@
 
 (deftest test5 (is (= (perfect? 8128) true)))
 
-(run-tests 'elem.task80)
+(run-tests 'math.task80)

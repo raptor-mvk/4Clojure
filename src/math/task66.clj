@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task66
+  math.task66
   (:use clojure.test))
 
 (defn gcd
@@ -21,4 +21,4 @@
 
 (deftest test4 (is (= (gcd 1023 858) 33)))
 
-(run-tests 'elem.task66)
+(run-tests 'math.task66)

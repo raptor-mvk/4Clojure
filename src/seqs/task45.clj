@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task45
+  seqs.task45
   (:use clojure.test))
 
 (def value
@@ -11,4 +11,4 @@
 
 (deftest test1 (is (= value (take 5 (iterate #(+ 3 %) 1)))))
 
-(run-tests 'elem.task45)
+(run-tests 'seqs.task45)
