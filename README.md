@@ -1,4 +1,4 @@
-Solutions to problems from http://4clojure.com/
+Problem solutions from http://4clojure.com/
 
 [Статистика](http://www.4clojure.com/user/raptor_mvk)
 
