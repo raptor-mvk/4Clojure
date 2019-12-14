@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task57
+  rec.task57
   (:use clojure.test))
 
 (def values
@@ -11,4 +11,4 @@
 
 (deftest test1 (is (= values ((fn foo [x] (when (> x 0) (conj (foo (dec x)) x))) 5))))
 
-(run-tests 'elem.task57)
+(run-tests 'rec.task57)

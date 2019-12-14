@@ -7,7 +7,7 @@
 
 (defn anagrams
   "Given a vector of words, returns set of sets, each sub-set consists of words,
-  whiche are anagrams to each other"
+  which are anagrams to each other"
   [coll]
   (into #{} (map #(into #{} %)
                  (filter #(> (count %) 1) (map last (group-by sort coll))))))

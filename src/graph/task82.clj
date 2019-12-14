@@ -8,7 +8,7 @@
   (:use clojure.test))
 
 (defn word-chain?
-  "Given a sequence of words, returns true if they can be arranged into one continous
+  "Given a sequence of words, returns true if they can be arranged into one continuous
   word chain (each word is created from previous with insertion, deletion or
   substitution of only one character), and false otherwise"
   [coll]
