@@ -1,8 +1,8 @@
-; Topic: elementary
+; Topic: math
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task92
+  math.task92
   (:use clojure.test))
 
 (defn rom2num
@@ -19,4 +19,4 @@
 
 (deftest test4 (is (= 48 (rom2num "XLVIII"))))
 
-(run-tests 'elem.task92)
+(run-tests 'math.task92)

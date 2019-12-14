@@ -1,8 +1,8 @@
-; Topic: elementary
+; Topic: math
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task86
+  math.task86
   (:use clojure.test))
 
 (defn happy?
@@ -29,4 +29,4 @@
 
 (deftest test4 (is (= (happy? 3) false)))
 
-(run-tests 'elem.task86)
+(run-tests 'math.task86)

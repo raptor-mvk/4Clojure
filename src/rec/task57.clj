@@ -1,4 +1,4 @@
-; Topic: elementary
+; Topic: recursion
 
 (ns
   ^{:author "raptor_MVK"}

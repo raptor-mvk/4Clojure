@@ -8,7 +8,8 @@
 (defn or-not-and
   "Given a variable number of booleans, returns true if some of the parameters are
   true, but not all of the parameters are true, otherwise returns false"
-  [& x] (and (not (reduce #(and %1 %2) x)) (reduce #(or %1 %2) x)))
+  [& x]
+  (and (not (reduce #(and %1 %2) x)) (reduce #(or %1 %2) x)))
 
 (deftest test1 (is (= false (or-not-and false false))))
 

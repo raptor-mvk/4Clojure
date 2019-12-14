@@ -1,4 +1,4 @@
-; Topic: elementary
+; Topic: sequences
 
 (ns
   ^{:author "raptor_MVK"}

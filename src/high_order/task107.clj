@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task107
+  high-order.task107
   (:use clojure.test))
 
 (defn power-closure
@@ -15,4 +15,4 @@
 
 (deftest test3 (is (= [1 2 4 8 16] (map #((power-closure %) 2) [0 1 2 3 4]))))
 
-(run-tests 'elem.task107)
+(run-tests 'high-order.task107)

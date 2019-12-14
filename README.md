@@ -1,32 +1,10 @@
 Solutions to problems from http://4clojure.com/
 
-    [81](http://www.4clojure.com/problem/81),
-    [82](http://www.4clojure.com/problem/82),
-    [83](http://www.4clojure.com/problem/83),
-    [84](http://www.4clojure.com/problem/84),
-    [85](http://www.4clojure.com/problem/85),
-    [86](http://www.4clojure.com/problem/86),
-    [87](http://www.4clojure.com/problem/87),
-    [88](http://www.4clojure.com/problem/88),
-    [89](http://www.4clojure.com/problem/89),
-    [90](http://www.4clojure.com/problem/90),
-    [91](http://www.4clojure.com/problem/91),
-    [92](http://www.4clojure.com/problem/92),
-    [93](http://www.4clojure.com/problem/93),
-    [94](http://www.4clojure.com/problem/94),
-    [95](http://www.4clojure.com/problem/95),
-    [96](http://www.4clojure.com/problem/96),
-    [97](http://www.4clojure.com/problem/97),
-    [98](http://www.4clojure.com/problem/98),
-    [99](http://www.4clojure.com/problem/99),
-    [100](http://www.4clojure.com/problem/100),
     [101](http://www.4clojure.com/problem/101),
     [102](http://www.4clojure.com/problem/102),
     [103](http://www.4clojure.com/problem/103),
-    [104](http://www.4clojure.com/problem/104),
     [105](http://www.4clojure.com/problem/105),
     [106](http://www.4clojure.com/problem/106),
-    [107](http://www.4clojure.com/problem/107),
     [108](http://www.4clojure.com/problem/108),
     [109](http://www.4clojure.com/problem/109),
     [110](http://www.4clojure.com/problem/110),
@@ -37,11 +15,9 @@ Solutions to problems from http://4clojure.com/
     [115](http://www.4clojure.com/problem/115),
     [116](http://www.4clojure.com/problem/116),
     [117](http://www.4clojure.com/problem/117),
-    [118](http://www.4clojure.com/problem/118),
     [119](http://www.4clojure.com/problem/119),
     [120](http://www.4clojure.com/problem/120),
     [121](http://www.4clojure.com/problem/121),
-    [122](http://www.4clojure.com/problem/122),
     [123](http://www.4clojure.com/problem/123),
     [124](http://www.4clojure.com/problem/124),
     [125](http://www.4clojure.com/problem/125),
@@ -110,9 +86,9 @@ Solutions to problems from http://4clojure.com/
     [69](http://www.4clojure.com/problem/69),
     [78](http://www.4clojure.com/problem/78),
     [81](http://www.4clojure.com/problem/81),
-    [118](http://www.4clojure.com/problem/118)
+    [118](http://www.4clojure.com/problem/118),
 * Dynamic programming
-  * [79](http://www.4clojure.com/problem/79)
+  * [79](http://www.4clojure.com/problem/79),
 * Elementary
   * [1](http://www.4clojure.com/problem/1),
     [2](http://www.4clojure.com/problem/2),
@@ -143,27 +119,33 @@ Solutions to problems from http://4clojure.com/
     [68](http://www.4clojure.com/problem/68),
     [71](http://www.4clojure.com/problem/71),
     [72](http://www.4clojure.com/problem/72),
-    [86](http://www.4clojure.com/problem/86),
-    [92](http://www.4clojure.com/problem/92),
-    [104](http://www.4clojure.com/problem/104),
-    [122](http://www.4clojure.com/problem/122)
+    [122](http://www.4clojure.com/problem/122),
 * Games
-  * [73](http://www.4clojure.com/problem/73)
+  * [73](http://www.4clojure.com/problem/73),
+    [94](http://www.4clojure.com/problem/94),
 * Graph
   * [82](http://www.4clojure.com/problem/82),
     [89](http://www.4clojure.com/problem/89),
-    [91](http://www.4clojure.com/problem/91)
+    [91](http://www.4clojure.com/problem/91),
+    [95](http://www.4clojure.com/problem/95),
+    [96](http://www.4clojure.com/problem/96),
 * High-order functions
   * [46](http://www.4clojure.com/problem/46),
-    [107](http://www.4clojure.com/problem/107)
+    [107](http://www.4clojure.com/problem/107),
 * Math
   * [42](http://www.4clojure.com/problem/42),
     [66](http://www.4clojure.com/problem/66),
     [75](http://www.4clojure.com/problem/75),
-    [80](http://www.4clojure.com/problem/80)
+    [80](http://www.4clojure.com/problem/80),
+    [86](http://www.4clojure.com/problem/86),
+    [92](http://www.4clojure.com/problem/92),
+    [97](http://www.4clojure.com/problem/97),
+    [98](http://www.4clojure.com/problem/98),
+    [100](http://www.4clojure.com/problem/100),
+    [104](http://www.4clojure.com/problem/104),
 * Recursion
   * [57](http://www.4clojure.com/problem/57),
-    [76](http://www.4clojure.com/problem/76)
+    [76](http://www.4clojure.com/problem/76),
 * Sequences
   * [20](http://www.4clojure.com/problem/20),
     [24](http://www.4clojure.com/problem/24),
@@ -186,9 +168,11 @@ Solutions to problems from http://4clojure.com/
     [70](http://www.4clojure.com/problem/70),
     [74](http://www.4clojure.com/problem/74),
     [77](http://www.4clojure.com/problem/77),
-    [83](http://www.4clojure.com/problem/83)
+    [83](http://www.4clojure.com/problem/83),
+    [93](http://www.4clojure.com/problem/93),
+    [99](http://www.4clojure.com/problem/99),
 * Set theory
   * [84](http://www.4clojure.com/problem/84),
     [85](http://www.4clojure.com/problem/85),
     [88](http://www.4clojure.com/problem/88),
-    [90](http://www.4clojure.com/problem/90)
+    [90](http://www.4clojure.com/problem/90),

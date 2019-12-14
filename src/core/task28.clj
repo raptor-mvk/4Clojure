@@ -1,4 +1,4 @@
-; Topic: sequences
+; Topic: core functions
 
 (ns
   ^{:author "raptor_MVK"}

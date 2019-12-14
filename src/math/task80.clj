@@ -1,4 +1,4 @@
-; Topic: elementary
+; Topic: math
 
 (ns
   ^{:author "raptor_MVK"}
