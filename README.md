@@ -1,5 +1,7 @@
 Solutions to problems from http://4clojure.com/
 
+[Статистика](http://www.4clojure.com/user/raptor_mvk)
+
     [101](http://www.4clojure.com/problem/101),
     [102](http://www.4clojure.com/problem/102),
     [103](http://www.4clojure.com/problem/103),
