@@ -7,7 +7,7 @@
 
 (defn take-while-nth
   "Given an integer n, a predicate p, and a sequence, returns a lazy sequence of items in the list up to, but not
-  including, the nth item that satisfies the predicate."
+  including, the nth item that satisfies the predicate"
   [n p coll]
   (loop [i n
          cur-coll coll
