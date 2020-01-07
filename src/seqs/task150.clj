@@ -27,4 +27,4 @@
 
 (deftest test6 (is (= (nth (palindrome 0) 10101) 9102019)))
 
-(run-tests 'seqs.task83)
+(run-tests 'seqs.task150)

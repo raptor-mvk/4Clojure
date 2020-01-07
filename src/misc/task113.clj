@@ -1,8 +1,8 @@
-; Topic: types
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  types.task113
+  misc.task113
   (:use clojure.test))
 
 (defn get-unique-params
@@ -26,4 +26,4 @@
 
 (deftest test6 (is (and (= nil (seq (get-unique-params))) (=  "" (str (get-unique-params))))))
 
-(run-tests 'types.task113)
+(run-tests 'misc.task113)

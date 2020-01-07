@@ -1,8 +1,8 @@
-; Topic: elementary
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  elem.task29
+  misc.task29
   (:use clojure.test))
 
 (defn upcase-filter
@@ -16,4 +16,4 @@
 
 (deftest test3 (is (= (upcase-filter "$#A(*&987Zf") "AZ")))
 
-(run-tests 'elem.task29)
+(run-tests 'misc.task29)

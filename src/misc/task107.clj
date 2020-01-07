@@ -1,8 +1,8 @@
-; Topic: high-order functions
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  high-order.task107
+  misc.task107
   (:use clojure.test))
 
 (defn power-closure
@@ -15,4 +15,4 @@
 
 (deftest test3 (is (= [1 2 4 8 16] (map #((power-closure %) 2) [0 1 2 3 4]))))
 
-(run-tests 'high-order.task107)
+(run-tests 'misc.task107)

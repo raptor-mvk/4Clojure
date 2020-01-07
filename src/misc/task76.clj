@@ -1,8 +1,8 @@
-; Topic: recursion
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  rec.task76
+  misc.task76
   (:use clojure.test))
 
 (def value
@@ -17,4 +17,4 @@
                                       #(foo x (+ 2 y))))]
                         (trampoline foo [] 1)))))
 
-(run-tests 'rec.task76)
+(run-tests 'misc.task76)

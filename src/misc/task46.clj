@@ -1,8 +1,8 @@
-; Topic: high-order functions
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  high-order.task46
+  misc.task46
   (:use clojure.test))
 
 (defn arg-flip
@@ -18,4 +18,4 @@
 
 (deftest test4 (is (= [1 2 3] ((arg-flip take) [1 2 3 4 5] 3))))
 
-(run-tests 'high-order.task46)
+(run-tests 'misc.task46)

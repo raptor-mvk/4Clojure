@@ -1,8 +1,8 @@
-; Topic: games
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  logic.task125
+  misc.task125
   (:use clojure.repl)
   (:use clojure.test))
 
@@ -18,4 +18,4 @@
 
 (deftest test1 (is (= (quine-wrapper false) (quine-wrapper true))))
 
-(run-tests 'logic.task125)
+(run-tests 'misc.task125)

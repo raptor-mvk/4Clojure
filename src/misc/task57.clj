@@ -1,8 +1,8 @@
-; Topic: recursion
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  rec.task57
+  misc.task57
   (:use clojure.test))
 
 (def values
@@ -11,4 +11,4 @@
 
 (deftest test1 (is (= values ((fn foo [x] (when (> x 0) (conj (foo (dec x)) x))) 5))))
 
-(run-tests 'rec.task57)
+(run-tests 'misc.task57)

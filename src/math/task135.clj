@@ -15,11 +15,11 @@
           left (apply infix-calc (butlast without-last))]
       ((last without-last) left (last x)))))
 
-(deftest test1 (is (= 7  (infix-calc 2 + 5))))
+(deftest test1 (is (= 7 (infix-calc 2 + 5))))
 
 (deftest test2 (is (= 42 (infix-calc 38 + 48 - 2 / 2))))
 
-(deftest test3 (is (= 8  (infix-calc 10 / 2 - 1 * 2))))
+(deftest test3 (is (= 8 (infix-calc 10 / 2 - 1 * 2))))
 
 (deftest test4 (is (= 72 (infix-calc 20 / 2 + 2 + 4 + 8 - 6 - 10 * 9))))
 

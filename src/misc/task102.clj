@@ -1,8 +1,8 @@
-; Topic: strings
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  strings.task102
+  misc.task102
   (:use clojure.test))
 
 (defn into-camel-case
@@ -17,4 +17,4 @@
 
 (deftest test3 (is (= (into-camel-case "leaveMeAlone") "leaveMeAlone")))
 
-(run-tests 'strings.task102)
+(run-tests 'misc.task102)

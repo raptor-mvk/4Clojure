@@ -1,8 +1,8 @@
-; Topic: math
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  math.task127
+  misc.task127
   (:use clojure.test))
 
 (defn get-triangular-area
@@ -111,4 +111,4 @@
 ; 11111      11111
 ; 00000      00000
 
-(run-tests 'math.task127)
+(run-tests 'misc.task127)

@@ -2,7 +2,7 @@
 
 (ns
   ^{:author "raptor_MVK"}
-  rec.task68
+  elem.task68
   (:use clojure.test))
 
 (def value
@@ -16,4 +16,4 @@
                           (recur (dec x) (conj result (+ 2 x)))
                           result)))))
 
-(run-tests 'rec.task68)
+(run-tests 'elem.task68)

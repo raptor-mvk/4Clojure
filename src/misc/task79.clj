@@ -1,8 +1,8 @@
-; Topic: dynamic programming
+; Topic: miscellaneous
 
 (ns
   ^{:author "raptor_MVK"}
-  dynprog.task79
+  misc.task79
   (:use clojure.test))
 
 (defn min-path
@@ -31,4 +31,4 @@
                                      [4 6 6 7 8]
                                      [5 7 3 5 1 4])))))
 
-(run-tests 'dynprog.task79)
+(run-tests 'misc.task79)
